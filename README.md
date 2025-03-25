@@ -1,7 +1,5 @@
-```mermaid
-graph TD;
-    A[Start: Abberufung eines Taus] -->|Initiative durch Tau selbst| B1[TauDashboard öffnen]
-    A -->|Initiative durch anderen Tau| B2[Prüfung der Mindestanzahl Taus]
+ A[Abberufung eines Taus] -->|Initiiert durch Tau selbst| B1[TauDashboard öffnen]
+    A -->|Initiiert durch anderen Tau| B2[Prüfung der Mindestanzahl Taus]
 
     B2 -->|Mindestens zwei Taus vorhanden| C1[Abberufung möglich]
     B2 -->|Nicht genügend Taus vorhanden| C2[Ernennung eines neuen Taus oder Community-Löschung]
